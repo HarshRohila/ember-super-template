@@ -10,5 +10,6 @@ export default class FeaturesList extends Component<FeaturesListArgs> {
 		'Bootstrap 5',
 		'Fontawesome 5',
 		'Typed Template',
+		'ember-intl',
 	];
 }

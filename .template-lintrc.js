@@ -6,4 +6,8 @@ module.exports = {
 		'octane', // this comes from ember-template-lint
 		'ember-template-lint-typed-templates:recommended',
 	],
+
+	rules: {
+		'no-bare-strings': true,
+	},
 };
