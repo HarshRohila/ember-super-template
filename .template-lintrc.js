@@ -1,5 +1,9 @@
 'use strict';
 
 module.exports = {
-  extends: 'octane',
+	plugins: ['ember-template-lint-typed-templates'],
+	extends: [
+		'octane', // this comes from ember-template-lint
+		'ember-template-lint-typed-templates:recommended',
+	],
 };

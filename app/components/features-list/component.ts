@@ -9,5 +9,6 @@ export default class FeaturesList extends Component<FeaturesListArgs> {
 		'Removed IE 11 support',
 		'Bootstrap 5',
 		'Fontawesome 5',
+		'Typed Template',
 	];
 }
